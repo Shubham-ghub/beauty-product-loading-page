@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #E88A71;
+    padding-left: 5rem;
+    padding-top: 5rem;
+}
+main{
+    height: 50rem;
+    width: 90%;
+    background: rgb(254,254,252);
+    background: radial-gradient(circle, rgba(254,254,252,1) 0%, rgba(255,244,228,1) 100%);
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    border-bottom: .5px solid gray;
+}
+.nav-logo{
+    color:#E88A71;
+}
+   
+.nav-links ul{
+    list-style: none;
+    display: flex;
+    justify-self: space-between;
+    align-items:center;
+    li{
+        margin: 0 10px;
+       
+    }
+
+}
+
+.nav-cart span{
+    background-color: #E88A71;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    
+    
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    padding: 5% 10%; 
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    
+
+}   
+.hero-img{
+    width: 50%;
+    height: 100%;
+    
+    
+}
+.hero-text{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 3rem;
+    position: relative;
+    top: -15rem;
+    
+    
+    
+}
+
+   
+.heading {
+   color: #e66b49;
+   font-family: Alumni Sans Pinstripe;
+   font-weight:bold;
+   font-style:normal;
+   font-size: 2rem;
+   position: relative;
+   top: 4rem;
+   left:-8rem;
+   margin-bottom: 2rem;
+ 
+  
+
+}
+span{
+    color: #E88A71;
+    
+        
+    
+}
+.fontsz {
+  width: 80%;
+  font-family: dancing script;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+  font-size: 4rem;
+  line-height: 1.2;
+  position: relative;
+   top: 4rem;
+   left:-1rem;
+
+}
+
+
+
+#shopBtn{
+    height: 3rem;
+    width: 13rem;
+    padding: 1rem;
+    border-radius: 1.4rem;
+    margin-top: 2rem;
+    border: none;
+    background-color: transparent;
+}  
+#discoverBtn{
+    height: 3rem;
+    width: 13rem;
+    padding: 1rem;
+    border-radius: 1.4rem;
+    margin-top: 2rem;
+    border: 1px solid black;
+    background-color: transparent;
+    position: relative;
+    top: 4rem;
+} 
+.details{
+    position: relative;
+    top: -1rem;
+    left: -4rem;
+    height: 25%;
+    width: 40rem;
+    background-color: #E88A71;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(254,254,252);
+    
+    h4{
+        font-size: 2rem;
+    }
+    .alumni-sans-pinstripe-regular {
+        font-family: "Alumni Sans Pinstripe", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+
+}
+
+  
+  
+.details-heading{
+    width: 50%;
+    position: relative;
+    top: -2rem;
+    left: 1rem;
+    span{
+        color: white;
+        font-weight: 200;
+    }
+    
+}
+.details-about{
+   width: 50%;
+   font-size: small;
+   li
+   button{
+    color: aliceblue;
+   }
+}
+.naturalrose{
+    height: 8rem;
+    width: 8rem;
+    position: relative;
+    top: 5rem;
+    left:15rem;
+    img{
+        position: relative;
+        top: -4rem;
+        left:1.5rem;
+    }
+}
+.naturalrose-detail{
+    position: relative;
+    top: 6rem;
+    left:15rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
